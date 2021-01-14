@@ -8,42 +8,90 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@media (max-width: 320px)
-{
-  .top-header 
-  {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+@media (max-width: 320px) {
+    width: 100%;
+    height: auto;
   }
-}
-@media (min-width: 320px)
-{
-  .top-header 
-  {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    /* font-size: 10px; */
+  .toph{
+    font-size: 8px !important;
+  }
+  .container-fluid{
+    width: 100%;
+  }
+  .logoimg{
+    width: 10%;
   }
 }
 
-@media (min-width: 420px)
-{
-  .top-header 
-  {
-    -ms-flex: 0 0 49%;
-    flex: 0 0 50%;
-    max-width: 50%;
+@media (min-width: 320px) {
+  .imgSize{
+    width: 100%;
+    height: auto;
   }
   .toph{
-    color: white;
-    text-align: left;
-    padding-left: 30px;
-    padding-top: 7px;
-    /* font-size: 12px; */
+    font-size: 11px !important;
+  }
+  .logoimg{
+    width: 22%;
   }
 }
+
+@media (min-width: 420px) {
+  .imgSize{
+    width: 100%;
+    height: auto;
+  }
+  .toph{
+    font-size: 9px !important;
+  }
+  .container-fluid{
+    width: 100%;
+  }
+  .logoimg{
+    width: 22%;
+  }
+}
+
+@media (min-width: 768px){
+  .imgSize{
+    width: 100%;
+    height: auto;
+  }
+  .toph{
+    font-size: 28px!important;
+  }
+  .logoimg{
+    width: 12%;
+  }
+}
+
+@media (min-width: 900px) {
+  .imgSize{
+    width: 100%;
+    height: auto;
+  }
+  .toph{
+    font-size: 30px!important;
+  }
+  .logoimg{
+    width: 12%;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .imgSize{
+    width: 100%;
+    height: auto;
+  }
+  .toph{
+    font-size: 31px!important;
+  }
+  .logoimg{
+    width: 12%;
+  }
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
